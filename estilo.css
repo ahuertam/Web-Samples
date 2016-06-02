@@ -1,0 +1,645 @@
+/*Estilo General( basico) ___________________________________________________________________________*/
+html,body,div,span,h1,h2,h3,h4,h5,h6,p,img,strong,ul,li,article,footer,header,nav,section
+{
+  margin: 2;
+  padding: 2;
+  border:2;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,footer,header,nav,section
+{
+  display: block;
+}
+body
+{
+  font: 16px/1.231 verdana;*font-size: medium;
+}
+html
+{
+  /*background: #888888 ; */
+  background: #202020;
+  overflow-y:scroll;
+}
+/*Estilo Base Enlaces ,Listas, barra navegacion ___________________________________________________________________________*/
+a,a:hover,a:active
+{
+  outline:none;
+}
+ul
+{
+  margin-left: 2em;
+}
+nav ul, nav li
+{
+  margin: 0;
+  list-style: none;
+  list-style-image:none;
+}
+strong
+{
+  font-weight: 800;
+}
+a:link
+{
+  color:#a7dbd8;
+}
+/*Estilo Fuentes ___________________________________________________________________________*/
+body
+{
+  font-family: "Book Antiqua","fantasy","Helvetica Neue",Helvetica,Arial,verdana,sans-serif;
+  font-weight:500; 
+  font-style: normal;
+  font-size: 17px;
+  line-height: 21px;
+  /*color:#424242; */
+  color:#B8B8B8;
+  /*text-shadow:#D0D0D0 0 1px 0; */
+}
+h1,h2,h3,h4,h5,h6
+{
+  font-family:Rockwell,"Courier Bold",Courier,Georgia,times,"Times New Roman",sans-serif;
+}
+a,a:active,a:visited
+{
+  color: #a7dbd8;
+  text-decoration: none;
+}
+a:hover
+{
+  color:#33CCCC;
+}
+/*Estilo Cuerpo ___________________________________________________________________________*/
+.cuerpo
+{
+background: none;
+display: block;
+margin: 0 auto;
+clear: both;
+padding: 0 20px;
+}
+.fila
+{
+  width: 100%;
+  max-width:1140px ;
+  min-width: 775px;
+  margin: 0 auto;
+  overflow: hidden; /*  Si sobresale contenido que lo oculte*/
+}
+.primera_columna
+{
+  margin-right: 3%;
+  float:left;
+  min-height: 2px;
+}
+.segunda_columna
+{
+  margin-right: 1.8%;
+  float:left;
+  min-height: 1px;
+}
+.fila .primera_columna
+{
+width: 66% 
+}
+.fila .segunda_columna
+{
+  width: 12.05%;
+
+}
+.ultima_columna
+{
+  margin-right: 0;
+}
+.right
+{
+float:right;
+}
+.fila img
+{
+  max-width: 60%;
+  max-height: 50%;
+}
+.fila ul
+{
+   margin: 0;
+  list-style: none;
+  list-style-image:none;
+}
+.tecnologias_utilizadas
+{
+  margin-right: 1.8%;
+  min-height: 1px;
+  margin: auto;
+  margin-bottom: 2px;
+  margin-top: 2px;
+}
+.centrado
+{
+  margin: 0 auto 50px;
+  position: relative;
+}
+p
+{
+margin: 2 2 30px;
+}
+h2
+{
+  font-size: 21px;
+  font-weight 700;
+  color: #00CCFF;
+  margin: 0 0 30px;
+}
+body
+{
+  background:#202022; ;
+  height: auto;
+}
+/*Estilo  Aspecto Grafico del Header__________________________________________________________________*/
+
+header.principal
+{
+/* Se puede poner background: url(../images/tramadoazul.gif); */ 
+background: #2b778c;
+width: 100%;
+height: 200px;
+border:thin solid #ffffff;
+border-width: 0 0 1px;
+margin: 0;
+padding: 0;
+z-index: 200;
+}
+
+/*Estilo  _Logotipo_____________________________________________________________*/
+
+a.logo_principal
+{
+  height:216px ;
+  width:682px ;
+  float: left;
+  background: url(../images/Logo2smallWB.png) no-repeat 0 0;
+  border-width: 0 50px 0 0;
+  text-indent: -9999px;
+  font-size: 0;
+  text-decoration: none;
+  margin: 20px 0 0;
+  padding: 0 20px 0 0;
+}
+
+/*Estilo menú principal_____________________________________________________________________*/
+nav.navegacion_principal
+{
+  height: 62px;
+  float:left;
+  font-family:Rockwell, "Courier Bold";
+  font-size: 17px;
+  color:auto;
+  line-height: 30px;
+  font-weight: 300;
+  border:thin solid #e9e9e9;
+  border-style: thin;
+  border-width: 0 0 0 1px;
+  margin: 35px 0 0;
+}
+nav.navegacion_principal.right
+{
+  height:22;
+  float: right;
+  font-family:Rockwell, "Courier Bold";
+  font-size: 17px;
+  color:auto;
+  line-height: 30px;
+  font-weight: 300;
+  border:thin solid #e9e9e9;
+  border-style: thin;
+  border-width: 0 0 0 1px;
+  margin: 35px 0 0;
+
+}
+
+nav.navegacion_principal ul li a 
+{
+  text-decoration: none;
+  color: auto;
+}
+nav.navegacion_principal ul li a:hover
+{
+ color:#bcbcbc;
+ text-decoration: none;
+}
+
+/*Estilo  Imagen principal________________________________________________________________________*/
+#imagen_principal
+{
+  height: 450px;
+  background: #404040;
+  width: 100%;
+  position: relative;
+  float: left;
+  z-index: 0;
+  border:thin solid #0f0f0f;
+  border-width: 0 0 1px;
+}
+/*Estilo  ___________________________________________________________________________*/
+/*Estilo  Imagen  intermedia _____________ */
+.manchas
+{
+background: url(../images/manchas2.png) center no-repeat;
+width: 100%;
+height: 450px;
+z-index: 10;
+}
+.triangulos
+{
+  background: url(../images/triangulos2.png) center no-repeat;
+width: 100%;
+height: 450px;
+z-index: 20;
+
+}
+
+.dragons
+{
+background: url(../images/dragons.png) center   no-repeat ;
+width: 100%;
+height: 450px;
+z-index: 20;
+padding: 75px 0 0;
+
+
+}
+#imagen_principal h2
+{
+  font-size:  60px;
+  color: #0099CC;
+  font-family: "fantasy","Rockwell Extra Bold", Rockwell "Courier";
+  font-weight: 900;
+  line-height: 60px;
+  text-shadow: 0 -1px 0 #ffffff,0 2px 2px rgba (0,0,0,0.2);
+}
+#imagen_principal h3
+{
+  font-size:  20px;
+  color: #6600CC;
+  font-family: "fantasy","Rockwell Extra Bold", Rockwell "Courier";
+  font-weight: 900;
+  line-height: 60px;
+  text-shadow: 0 -1px 0 #ffffff,0 2px 2px rgba (0,0,0,0.4);
+}
+a.boton
+{
+  width: 310px;
+  height: 74px;
+  background: url(../images/vamos1.png) 0 0  no-repeat ;
+  overflow: hidden;
+  float:left;
+  text-indent: -9999px;
+}
+a.boton:hover
+{
+  width: 310px;
+  height: 74px;
+  background: url(../images/vamos2.png) 0 0  no-repeat ;
+  overflow: hidden;
+  float:left;
+  text-indent: -9999px;
+}
+/*Estilo  Iniciate______________________________________________________________________*/
+.introduccion
+{
+  width: 100%;
+  height: 140px;
+  float: left;
+  background:  url(../images/tramado_negro2.png) 0 0  repeat-x;
+  border:none;
+  padding:40px;
+  margin: 0 0 50px;
+
+}
+.introduccion p
+{
+  color: #0099CC;
+  text-align: center;
+  font-family:Rockwell,"Courier Bold",fantasy,Courier ;
+  font-size: 22px;
+  text-shadow :#000 0 1px 0;
+  font-weight: lighter;
+  letter-spacing: -0.015em;
+  line-height: 31px;
+  margin: 0;
+  padding: 0;
+}
+.introduccion p:first-line
+{
+ font-size: 41px;
+ letter-spacing: -0.002em;
+}
+.introduccion p:first-line
+{
+ font-size: 41px;
+ letter-spacing: -0.002em;
+}
+.introduccion p strong
+{
+color: #e0e4cc;
+font-weight: 700;
+}
+
+
+
+/*Estilo  Reglas___________________________________________________________________*/
+
+.articulo1
+{
+  width:  100%;
+  height:400;
+  background:  #47433c;
+  border: thin;
+  padding:20px;
+  margin: 0 0 0;
+
+}
+.articulo1 h2
+{
+  color: default;
+  text-align: center;
+  font-family:Rockwell,"Courier Bold",fantasy,Courier ;
+  font-size: 36px;
+  text-shadow :#000 0 1px 0;
+  font-weight: lighter;
+  letter-spacing: -0.015em;
+  line-height: 31px;
+  margin: 0;
+  padding: 0;
+
+}
+.articulo1 li
+{
+  color: #e0e4cc;
+  text-align: left;
+  font-family:Rockwell,"Courier Bold",fantasy,Courier ;
+  font-size: 18px;
+  text-shadow :#000 0 1px 0;
+  font-weight: lighter;
+  letter-spacing: -0.015em;
+  line-height: 31px;
+  margin: 0;
+  padding: 0;
+}
+
+.articulo1 strong
+{
+color: #e0e4cc;
+font-weight: 700;
+}
+
+
+
+/*Estilo Primera Columna____________________________________________________________________*/
+.primera_columna
+{
+  width:  100%;
+  height:400;
+  background:  #2e2e2e;
+  border:none;
+  padding:50px;
+  margin: 0 0 50px;
+
+}
+
+.primera_columna h2
+{
+  color: default;
+  text-align: center;
+  font-family:Rockwell,"Courier Bold",fantasy,Courier ;
+  font-size: 36px;
+  text-shadow :#000 0 1px 0;
+  font-weight: lighter;
+  letter-spacing: -0.015em;
+  line-height: 31px;
+  margin: 0;
+  padding: 0;
+
+}
+.primera_columna li
+{
+  color: #e0e4cc;
+  text-align: left;
+  font-family:Rockwell,"Courier Bold",fantasy,Courier ;
+  font-size: 18px;
+  text-shadow :#000 0 1px 0;
+  font-weight: lighter;
+  letter-spacing: -0.015em;
+  line-height: 31px;
+  margin: 0;
+  padding: 0;
+}
+
+.primera_columna strong
+{
+color: #e0e4cc;
+font-weight: 700;
+}
+
+
+/*Estilo Ejercitos_____________________________________________________________________*/
+.primera
+{
+  width:  100%;
+  height:500;
+  background:  url(../images/doblado2.png) 0 0  repeat-x;
+  border:none;
+  padding:50px;
+  margin: auto;
+
+}
+
+.primera p
+{
+  color: auto;
+  font-size: 18px;
+font-family:Rockwell,"Courier Bold",fantasy,Courier ;
+
+}
+.primera li
+{
+  color: auto;
+  font-size: 14px;
+font-family:Rockwell,"Courier Bold",fantasy,Courier ;
+
+}
+.primera strong
+{
+  color: #FFFFFF;
+font-family: "chalkboard" ,Rockwell,"Courier Bold",fantasy,Courier ;
+
+
+}
+/*Estilo  _trasfondo_____________________________________________________________*/
+
+.trasfondo
+{
+  width:  88%;
+  height:300;
+ /* background:  #47433c; */
+  background: #C0C0C0 ;
+  border:none;
+  padding:50px;
+  margin: 0 0 50px;
+
+}
+
+.trasfondo h2
+{
+  color: #66CCFF;
+  text-align: center;
+  font-family:fantasy,times;
+  font-size: 46px;
+  text-shadow :#001 0 2.5px 0;
+  font-weight: medium;
+  letter-spacing: -0.015em;
+  line-height: 31px;
+  margin: 0;
+  padding: 0;
+
+}
+.trasfondo p
+{
+  color: #000066  ;
+  text-align: left;
+  font-family:Rockwell,"Courier Bold",fantasy,Courier ;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: -0.015em;
+  line-height: 31px;
+  margin: 1;
+  padding: 0;
+}
+
+.trasfondo p strong
+{
+color: #3299bb;
+font-weight: 700;
+}
+
+/*Estilo Tecnologias____________________________________________________________________*/
+.tecno h2
+{
+  text-align: left;
+  position: absolute;
+  float: left;
+  top: -12px;
+  left: 41%;
+  z-index: 999;
+  font-size: 36px;
+  letter-spacing: -0.015em;
+  line-height: 40px;
+  color: default;
+  margin: 1;
+  border: 2px solid #808080 ;
+  background:#202020;
+  padding: 1% 1% 1%;
+
+}
+.tecnologias_utilizadas
+{
+ background: #202020;
+ padding: 50px 0 0;
+ position: relative;
+ z-index: 0;
+ overflow: visible;
+}
+
+.tecnologias_utilizadas ul
+{
+  list-style: none;
+  margin: 0 0 50px;
+  padding: 0 1% ;
+  float: center;
+  border: 2px solid #a7dbd8 ;
+  clear:both;
+  width: 100%;
+}
+
+/*Estilo footer ___________________________________________________________________________*/
+
+footer
+{
+  background:#424242 ;
+  width: 100%;
+  display: block;
+  clear: both;
+  text-shadow:none;
+  color: default;
+  margin:0 auto;
+  padding: 0.5px;
+}
+
+a.twitter
+{
+  width: 60px;
+  height: 60px;
+  background: url(../images/twitter.png) 0 0  no-repeat ;
+  overflow: hidden;
+  float:left;
+  text-indent: -9999px;
+}
+a.twitter:hover
+{
+  width: 60px;
+  height: 60px;
+  background: url(../images/twitter_hover.png) 0 0  no-repeat ;
+  overflow: hidden;
+  float:left;
+  text-indent: -9999px;
+}
+a.gplus
+{
+  width: 55px;
+  height: 55px;
+  background: url(../images/gplus.png) 0 0  no-repeat ;
+  overflow: hidden;
+  float:left;
+  text-indent: -9999px;
+}
+a.gplus:hover
+{
+  width: 55px;
+  height: 55px;
+  background: url(../images/gplus_hover.png) 0 0  no-repeat ;
+  overflow: hidden;
+  float:left;
+  text-indent: -9999px;
+}
+
+
+/*Estilo Cajita para firmat ___________________________________________________________________________*/
+.box {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  border: 1px solid #ccc;
+  margin: 50px auto;
+  padding: 10px;
+  background-color:#FFFFA5;
+  position: relative;
+  text-decoration:none;
+}
+
+.box-fluid {
+  width: 25%;
+  height: 110px;
+  float: center;
+  text-align: center;
+  border: 2px solid #ccc;
+  background-color:#303030;
+  margin: 1px auto;
+  padding: 30px 10px 1px;
+  position: relative;
+  color:#F0F0F0;
+  font.font-weight: normal;
+  font-family: Arial,Helvetica,sans-serif;
+  
+ }
+
